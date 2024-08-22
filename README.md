@@ -26,7 +26,9 @@ Below structure of scripts are the step by step data curation and then investiga
 │   └── # Placeholder for "scComp" script
 │   └── # Placeholder for "MELD" script
 ```
+## Analysis diagram
 
+[AnalysisDiagram.pdf](https://github.com/user-attachments/files/16709177/AnalysisDiagram.pdf)
 
 ## Analysis medium
 
