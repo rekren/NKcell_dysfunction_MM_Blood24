@@ -27,8 +27,8 @@ Below structure of scripts are the step by step data curation and then investiga
 │   └── # Placeholder for "MELD" script
 ```
 ## Analysis diagram
+![AnalysisDiagram](https://github.com/user-attachments/assets/28c07e18-66f0-408e-9213-465b946abfba)
 
-[AnalysisDiagram.pdf](https://github.com/user-attachments/files/16709177/AnalysisDiagram.pdf)
 
 ## Analysis medium
 
