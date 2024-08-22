@@ -9,22 +9,21 @@ Below structure of scripts are the step by step data curation and then investiga
 
 ## Structural layout
 ```{r eval=FALSE, include=TRUE}
-├── src
-│   └── 01_individually_processing_per_emulsion.R  # Reading Cellranger / Velocyto outputs, then annotating cell types per emulsion to ref PBMC in a loop
-│   └── 02_merging_processed_emulsions.R #Merging each emulsions' data into one data object
-│   └── 03a_nuc_frac_calcul.R #Calculating nuclear RNA fraction of cells
-│   └── 03b_nuclear_RNA_fraction_metric.py # Helper python script of nuclear RNA fraction
-│   └── 04_QC_check_and_trim.R # QC plots and trimming based-on QC
-│   └── 05a_preprocessing.R # Normalization,ScaleData,Dimensional Reduction,PC-correction etc.
-│   └── 05b_plots_leading_to_nk_subsetting.R # Intermediate step of assessing inferred cell types
-│   └── 06a_nk_subsetting.R # Separating NK cells from the rest of the cell types 
-│   └── 06b_removal_of_prolif_nk_portion.R # Keeping non-proliferating, more stable NK cells for downstream analysis
-│   └── multi_criteria_filt_GSEA.R # Multiple parameter assessment oriented GSEA script
-│   └── combin_presto_function.R # Helper function of combinatorial Presto running to rank all genes for comparison groups (ClusterXvsY)
-│   └── combin_gsea_function.R # Helper function to run fGSEA for comparison pairs and keep them in list of lists format
-│   └── # Placeholder for "Slingshot-custom-script"
-│   └── # Placeholder for "scComp" script
-│   └── # Placeholder for "MELD" script
+├── 01_individually_processing_per_emulsion.R  # Reading Cellranger / Velocyto outputs, then annotating cell types per emulsion to ref PBMC in a loop
+├── 02_merging_processed_emulsions.R #Merging each emulsions' data into one data object
+├── 03a_nuc_frac_calcul.R #Calculating nuclear RNA fraction of cells
+├── 03b_nuclear_RNA_fraction_metric.py # Helper python script of nuclear RNA fraction
+├── 04_QC_check_and_trim.R # QC plots and trimming based-on QC
+├── 05a_preprocessing.R # Normalization,ScaleData,Dimensional Reduction,PC-correction etc.
+├── 05b_plots_leading_to_nk_subsetting.R # Intermediate step of assessing inferred cell types
+├── 06a_nk_subsetting.R # Separating NK cells from the rest of the cell types 
+├── 06b_removal_of_prolif_nk_portion.R # Keeping non-proliferating, more stable NK cells for downstream analysis
+├── multi_criteria_filt_GSEA.R # Multiple parameter assessment oriented GSEA script
+├── combin_presto_function.R # Helper function of combinatorial Presto running to rank all genes for comparison groups (ClusterXvsY)
+├── combin_gsea_function.R # Helper function to run fGSEA for comparison pairs and keep them in list of lists format
+├── # Placeholder for "Slingshot-custom-script"
+├── # Placeholder for "scComp" script
+└── # Placeholder for "MELD" script
 ```
 ## Analysis diagram
 ![AnalysisDiagram](https://github.com/user-attachments/assets/28c07e18-66f0-408e-9213-465b946abfba)
