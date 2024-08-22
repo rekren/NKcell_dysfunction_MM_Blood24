@@ -3,9 +3,14 @@
 This repository contains the scripts yielding to the processed scRNAseq data of NK cells in Multiple Myeloma patients.
 The study utilizing this dataset is published in   the results in our [article](https://doi.org/10.1182/blood.2023023529).
 
-The processed data of 8 NK cell clusters determined in the MM patients and healthy donors were stored in Zenodo as an accessible Seurat object [link](prospective_link_here)
+The processed data of 8 NK cell clusters determined in the MM patients and healthy donors were stored in [Zenodo](https://doi.org/10.5281/zenodo.13359147)
+![Screenshot from 2024-08-22 13-56-34](https://github.com/user-attachments/assets/e01e16c4-1030-4a1e-858a-edab776095a1)
 
 Below structure of scripts are the step by step data curation and then investigation of NK cells in the downstream analysis.
+
+## Analysis diagram
+![AnalysisDiagram](https://github.com/user-attachments/assets/28c07e18-66f0-408e-9213-465b946abfba)
+
 
 ## Structural layout
 ```{r eval=FALSE, include=TRUE}
@@ -25,10 +30,6 @@ Below structure of scripts are the step by step data curation and then investiga
 ├── # Placeholder for "scComp" script
 └── # Placeholder for "MELD" script
 ```
-## Analysis diagram
-![AnalysisDiagram](https://github.com/user-attachments/assets/28c07e18-66f0-408e-9213-465b946abfba)
-
-
 ## Analysis medium
 
 All of the analyses of this study except *MELD* were performed with the local machine (workstation) containing Intel® Core™ i9-9900K CPU and 128 GB RAM, running on Linux (Ubuntu 22.04.2 LTS) operation system.
