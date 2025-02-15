@@ -1,12 +1,13 @@
 ## Summary
 
 This repository contains the scripts yielding to the processed scRNAseq data of NK cells in Multiple Myeloma patients.
-The study utilizing this dataset is published in   the results in our [article](https://doi.org/10.1182/blood.2023023529).
+The study utilizing this dataset is published in  the results in our [article](https://doi.org/10.1182/blood.2023023529).
 
 The processed data of 8 NK cell clusters determined in the MM patients and healthy donors were stored in [Zenodo](https://doi.org/10.5281/zenodo.13359147)
 ![Screenshot from 2024-08-22 13-56-34](https://github.com/user-attachments/assets/e01e16c4-1030-4a1e-858a-edab776095a1)
 
 Below structure of scripts are the step by step data curation and then investigation of NK cells in the downstream analysis.
+This repo is archived, active repo is migrated to [here](https://github.com/ImmuneAxisa/NKcell_dysfunction_MM_Blood24)
 
 ## Analysis diagram
 ![AnalysisDiagram](https://github.com/user-attachments/assets/28c07e18-66f0-408e-9213-465b946abfba)
@@ -26,9 +27,7 @@ Below structure of scripts are the step by step data curation and then investiga
 ├── multi_criteria_filt_GSEA.R # Multiple parameter assessment oriented GSEA script
 ├── combin_presto_function.R # Helper function of combinatorial Presto running to rank all genes for comparison groups (ClusterXvsY)
 ├── combin_gsea_function.R # Helper function to run fGSEA for comparison pairs and keep them in list of lists format
-├── # Placeholder for "Slingshot-custom-script"
-├── # Placeholder for "scComp" script
-└── # Placeholder for "MELD" script
+
 ```
 ## Analysis medium
 
