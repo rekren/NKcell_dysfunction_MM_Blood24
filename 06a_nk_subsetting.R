@@ -44,7 +44,7 @@ nk_part <-
   RunPCA()
 nk_part <- nk_part %>% RunHarmony(group.by.vars = "id")
 
-source(file = "../pub_ready/func/quant_pcs.R");source(file = "../pub_ready/func/quant_harmonys.R")
+source(file = "../quant_pcs.R");source(file = "../quant_harmonys.R")
 quant_opt_pcs(nk_part); quant_opt_harmonys(nk_part)
 
 #'---------------------------------------------------------------------------------------------------------------------------

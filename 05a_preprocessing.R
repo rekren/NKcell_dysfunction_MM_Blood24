@@ -32,7 +32,7 @@ trim_sc <- RunHarmony(trim_sc,reduction = "pca",group.by.vars = "id",verbose = T
 # To integrate different scRNAseq emulsion runs of this dataset and reducing the technical variance between samples while keeping biological variance of the samples
 #'
 # **Selection of optimum number of dimensions**
-source(file = "../pub_ready/func/quant_harmonys.R")
+source(file = "../quant_harmonys.R")
 #' The helper function above checks two criteria; how many dimensions are required to cover 90% of the cumulative standard deviation of the dataset,
 #' and when the difference of standard deviation between two consecutive dimensions drops less than 0.1 percent.
 #' Then ranking the minimum dimension of those two, to continue analysis as the optimum dimension to use downstream.
