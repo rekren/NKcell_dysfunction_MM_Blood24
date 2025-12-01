@@ -32,6 +32,8 @@ This repo is archived, active repo is migrated to [here](https://github.com/Immu
 ├── 05b_plots_leading_to_nk_subsetting.R # Intermediate step of assessing inferred cell types
 ├── 06a_nk_subsetting.R # Separating NK cells from the rest of the cell types 
 ├── 06b_removal_of_prolif_nk_portion.R # Keeping non-proliferating, more stable NK cells for downstream analysis
+├── quant_pcs.R # Helper function to select of optimum dims of PCs reductions
+├── quant_harmonys.R # Helper function to select of optimum dims of harmony reductions
 ├── multi_criteria_filt_GSEA.R # Multiple parameter assessment oriented GSEA script
 ├── combin_presto_function.R # Helper function of combinatorial Presto running to rank all genes for comparison groups (ClusterXvsY)
 ├── combin_gsea_function.R # Helper function to run fGSEA for comparison pairs and keep them in list of lists format
